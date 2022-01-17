@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+padding: 2.25rem;
+width: 100%;
+height: 100%;
+}
+section-1{
+    background: linear-gradient(to right, red, yellow);
+    color:#fff;
+    padding: 25px;
+    font-family: 'Times New Roman', Times, serif;  
+    display: none;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    
+}
+section-2{
+    background-image: linear-gradient(to right, blue , orange);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    display: none;
+    padding: 20px;
+}
+section {
+padding: 2.25erm;
+font-size: larger;
+color: #fff;
+}
