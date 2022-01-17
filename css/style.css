@@ -1,32 +1,84 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+
+    padding: 0;
+
+    margin: 0;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
+
+html,
+
 body {
-padding: 2.25rem;
-width: 100%;
-height: 100%;
+
+    width: 100%;
+
+    height: 100%;
+
 }
-section-1{
-    background: linear-gradient(to right, red, yellow);
-    color:#fff;
-    padding: 25px;
-    font-family: 'Times New Roman', Times, serif;  
-    display: none;
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-    
+
+body {
+
+    padding: 2rem;
+
 }
-section-2{
-    background-image: linear-gradient(to right, blue , orange);
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    display: none;
-    padding: 20px;
+
+button {
+
+    padding: 0.2rem;
+
+    font-size: medium;
+
 }
+
 section {
-padding: 2.25erm;
-font-size: larger;
-color: #fff;
+
+    padding: 2rem;
+
+    font-size: 25px;
+
+    color: #000;
+
+}
+
+#sec-1 {
+
+    width: 70%;
+
+    height: 40%;
+
+    background: linear-gradient(
+        rgb(14,161,195 ),
+
+        #a36f6f,
+
+        #9090c4,
+
+        #9ad39a,
+
+    );
+
+}
+
+#sec-2 {
+
+    width: 70%;
+
+    height: 40%;
+
+    display: none;
+
+    background: radial-gradient(
+
+        rgb(16, 194, 16),
+
+        hsl(240, 39%, 50%),
+
+        rgb(120, 74, 196)
+
+    );
+
 }

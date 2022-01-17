@@ -1,8 +1,8 @@
 const arr = [];
 
-const section1 = document.querySelector('#section-1');
+const sec1 = document.querySelector('#sec-1');
 
-const section2 = document.querySelector('#section-2');
+const sec2 = document.querySelector('#sec-2');
 
 const ulS1 = document.querySelector('ul');
 
